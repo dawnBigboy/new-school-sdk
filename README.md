@@ -67,7 +67,7 @@ print(course)
 | Api           | Description                 | Argument          |
 | :------------ | :-------------------------- | :---------------- |
 | user_login    | 登陆函数                    | account, password |
-| get_schedule  | 课表查询                    | year, term        |
+| get_schedule  | 课表查询                    | year, term, schedule_time(此参数用于部分学校课程作息表时间超过10节课的情况可以进行自定义适配) |
 | get_score     | 成绩查询                    | year, term        |
 | get_info      | 获取个人信息                | None              |
 | refresh_info  | 刷新个人信息                | None              |
