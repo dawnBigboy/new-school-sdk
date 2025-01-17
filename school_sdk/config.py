@@ -9,27 +9,27 @@
 # INDEX http://192.168.2.123:7899/xtgl/index_initMenu.html?jsdm=xs&_t=1643879775142
 
 URL_ENDPOINT = {
-    "HOME_URL": "/xtgl/login_slogin.html",
-    "INDEX_URL": "/xtgl/index_initMenu.html",
+    "HOME_URL": "/jwglxt/xtgl/login_slogin.html",
+    "INDEX_URL": "/jwglxt/xtgl/index_initMenu.html",
     'LOGIN': {
-        'INDEX': '/xtgl/login_slogin.html',
-        'CAPTCHA': '/zfcaptchaLogin',
-        'KCAPTCHA': '/kaptcha',
-        'PUBLIC_KEY': '/xtgl/login_getPublicKey.html',
+        'INDEX': '/jwglxt/xtgl/login_slogin.html',
+        'CAPTCHA': '/jwglxt/zfcaptchaLogin',
+        'KCAPTCHA': '/jwglxt/kaptcha',
+        'PUBLIC_KEY': '/jwglxt/xtgl/login_getPublicKey.html',
     },
     "SCORE_URL": "",
     "INFO_URL": "",
     "SCHEDULE": {
-        "API": '/kbcx/xskbcx_cxXsKb.html',
+        "API": '/jwglxt/kbcx/xskbcx_cxXsKb.html',
     },
     "CLASS_SCHEDULE": {
-        "API": '/kbdy/bjkbdy_cxBjKb.html'
+        "API": '/jwglxt/kbdy/bjkbdy_cxBjKb.html'
     },
     'SCORE': {
         # cjcx_cxXsgrcj
-        'API': '/cjcx/cjcx_cxDgXscj.html'
+        'API': '/jwglxt/cjcx/cjcx_cxDgXscj.html'
     },
     'INFO': {
-        'API': '/xsxxxggl/xsgrxxwh_cxXsgrxx.html'
+        'API': '/jwglxt/xsxxxggl/xsgrxxwh_cxXsgrxx.html'
     }
 }
